@@ -12,3 +12,6 @@ R) Retorna el primer elemento de un array que cumple con una condición definida
 
 # ¿Qué hace el método `map()`?
 R) Crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos
+
+# ¿Qué hace el método `filter()`?
+R) Crea un nuevo array con los elementos del array que se pasó como parámetro y que cumplan con la condición definida
