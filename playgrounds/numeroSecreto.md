@@ -1,22 +1,28 @@
-/* En este desafío vas a recibir un parámetro secreto en la función solution. 
-Debes retornar true si el número secreto es mayor a 5 y false si es menor o igual */
+En este desafío vas a recibir un parámetro secreto en la función solution  Debes retornar true si el número secreto es mayor a 5 y false si es menor o igual
 
-// Answer #1
-function solution(secreto) {
-    return secreto > 5
-}
+# Answer 1
+<code>
+  function solution(secreto) {
+      return secreto > 5
+  }
+</code>
 
-// Answer #2 
+# Answer 2
+<code>
 function solution(secreto) {
     return !(secreto <= 5);
 }
+</code>
 
-// Answer #3 
+# Answer 3
+<code>
 function solution(secreto) {
     return secreto > 5 ? true : false
 }
+</code>
 
-// Answer #4
+# Answer 4
+<code>
 export function solution(secreto) {
     if (secreto > 5) {
       return true;
@@ -24,8 +30,10 @@ export function solution(secreto) {
       return false;
     }
 }
+</code>
 
-// Answer #5 
+# Answer 5
+<code> 
 export function solution(secreto) {
     if (secreto < 6) {
       return false;
@@ -33,3 +41,4 @@ export function solution(secreto) {
         return true;  
       }
 }
+</code>
